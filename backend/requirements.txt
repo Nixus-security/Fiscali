@@ -1,0 +1,39 @@
+# API Framework
+fastapi==0.115.*
+uvicorn[standard]==0.34.*
+python-multipart==0.0.*
+
+# Database
+sqlalchemy==2.0.*
+alembic==1.14.*
+asyncpg==0.30.*
+
+# Auth
+python-jose[cryptography]==3.3.*
+passlib[bcrypt]==1.7.*
+bcrypt==4.2.*
+
+# CSV / Data processing
+pandas==2.2.*
+openpyxl==3.1.*
+
+# PDF Generation
+reportlab==4.2.*
+fpdf2==2.8.*
+
+# HTTP client (price fetching)
+httpx==0.28.*
+
+# Config
+pydantic-settings==2.7.*
+python-dotenv==1.0.*
+
+# Payments
+stripe==11.*
+
+# Testing
+pytest==8.3.*
+pytest-asyncio==0.24.*
+
+# Dev
+ruff==0.8.*
